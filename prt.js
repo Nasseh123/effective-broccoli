@@ -155,7 +155,7 @@ if(this.$root.useIframe){var iframe=this.$root.overlay.$children[0].$refs['frame
 +'<div class="pretix-widget-frame-inner" ref="frame-container" v-show="$root.frame_shown">'
 +'<iframe frameborder="0" width="650px" height="650px" @load="iframeLoaded" '
 +'        :name="$root.parent.widget_id" src="about:blank" v-once'
-+'        allow="autoplay *; camera *; fullscreen *; "'
++'        
 +'        referrerpolicy="origin">'
 +'Please enable frames in your browser!'
 +'</iframe>'
